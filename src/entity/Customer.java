@@ -6,11 +6,11 @@ public class Customer {
     private String phone ;
     private int adhaar ;
 
-    public Customer(int adhaar, int id, String name, String phone) {
-        this.adhaar = adhaar;
+    public Customer( int id, String name, String phone , int adhaar) {
         this.id = id;
         this.name = name;
         this.phone = phone;
+        this.adhaar = adhaar;
     }
 
     public int getAdhaar() {
